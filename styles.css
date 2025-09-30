@@ -14,3 +14,10 @@ img {
     width: 150px;
     border-radius: 20px;
 }
+
+.poema li:first-child::first-letter
+{
+  font-size:26px;
+  font-style:italic;
+  padding-right:3px;
+}
