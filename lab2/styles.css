@@ -26,10 +26,11 @@ table, th, td {
 header {
     background-color: chartreuse;
     text-align: center;
-    text-decoration-color: white;
+    color: white;
 }
-nav {
+nav, footer {
     text-align: center;
     background-color: rgb(31, 31, 31);
-    text-emphasis-color: white;
+    color: white;
 }
+
