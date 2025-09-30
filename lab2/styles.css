@@ -26,10 +26,13 @@ header, h1 {
     background-color: chartreuse;
     text-align: center;
     color: white;
+    margin: 0px;
+    border: 0px;
 }
 nav:a , footer {
     text-align: center;
     background-color: rgb(31, 31, 31);
     color: white;
+    margin: 0px;
 }
 
