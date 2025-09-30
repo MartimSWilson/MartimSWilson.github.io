@@ -4,13 +4,13 @@ body {
 img { 
     width: 300px;
 }
-.fotografias {
+.Fotografias {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
 }
-.fotografias img {
+.Fotografias img {
     width: 150px;
     border-radius: 20px;
 }
