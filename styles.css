@@ -19,3 +19,7 @@ img {
     font-style:italic;
     padding-right:4px;
 }
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
