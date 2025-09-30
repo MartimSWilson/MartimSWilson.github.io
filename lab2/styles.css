@@ -27,7 +27,7 @@ header, h1 {
     text-align: center;
     color: white;
 }
-nav, footer {
+nav:a , footer {
     text-align: center;
     background-color: rgb(31, 31, 31);
     color: white;
