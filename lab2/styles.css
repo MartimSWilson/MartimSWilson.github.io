@@ -28,7 +28,7 @@ header, h1 {
     color: white;
     margin: 0px;
 }
-nav , footer {
+nav:a:link , footer {
     text-align: center;
     background-color: rgb(31, 31, 31);
     color: white;
