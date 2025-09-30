@@ -17,5 +17,5 @@ img {
 .poema li:first-child::first-lettern {
   font-size:26px;
   font-style:italic;
-  padding-right:3px;
+  padding-right:4px;
 }
