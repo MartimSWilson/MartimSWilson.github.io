@@ -28,10 +28,16 @@ header, h1 {
     color: white;
     margin: 0px;
 }
-nav:a:link , footer {
+nav, footer {
     text-align: center;
     background-color: rgb(31, 31, 31);
     color: white;
     margin: 0px;
+}
+nav:link{
+    color: white;
+}
+nav:visited{
+    color: white;
 }
 
