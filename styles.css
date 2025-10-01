@@ -5,65 +5,80 @@ img {
     width: 300px;
 }
 * {
-  font-family: sans-serif;
-  padding: 0;
-  margin: 0;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 header,footer, section, footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
 }
 
 header {
-  background: rgb(121, 255, 44);
-  position: sticky;
-  height: 10vh;
-  top: 0;
+    background: rgb(196, 196, 196);
+    position: sticky;
+    height: 10vh;
+    top: 0;
 }
 
 section:nth-child(1){
-  height: 100vh;
-  background-image: url("images/fb3552daa27822a4655400f8ca17f27a\ \(1\).jpg");
-  background-size: cover;
+    height: 100vh;
+    background-image: url("images/fb3552daa27822a4655400f8ca17f27a\ \(1\).jpg");
+    background-size: cover;
 }
 
 section:nth-child(2) {
-  height: 100vh;
-  background: rgb(252, 255, 68);
+    height: 100vh;
+    background: rgb(252, 255, 68);
 }
 
 section:nth-child(3) {
-  height: 100vh;
-  background: rgb(255, 65, 65);
+    height: 100vh;
+    background: rgb(255, 65, 65);
 }
 
 section:nth-child(4) {
-  height: 100vh;
+    height: 100vh;
 }
 
 footer {
-  height: 100vh;
-  background: black;
-  color: white;
+    height: 100vh;
+    background: black;
+    color: white;
 }
 
 .container {
-  position: relative;
-  text-align: center;
-  color: white;
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
 .botao{
-  font-size: 30px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 nav{
     font-size: 20px;
+}
+
+nav ul{
+    position: absolute;
+    left: 16px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: inherit;
 }
