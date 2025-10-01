@@ -34,10 +34,12 @@ nav, footer {
     color: white;
     margin: 0px;
 }
-nav:link{
-    color: white;
+nav a {
+  color: white;
+  text-decoration: none; 
 }
-nav:visited{
-    color: white;
+
+nav a:hover {
+  color: lightgray;
 }
 
