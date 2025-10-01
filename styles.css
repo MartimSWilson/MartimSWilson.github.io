@@ -4,22 +4,66 @@ body {
 img { 
     width: 300px;
 }
-.Fotografias {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 10px;
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
 }
-.Fotografias img {
-    width: 150px;
-    border-radius: 20px;
+
+header,footer, section, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5vh;
 }
-.poema li:first-child::first-letter {
-    font-size:26px;
-    font-style:italic;
-    padding-right:4px;
+
+header {
+  background: rgb(121, 255, 44);
+  position: sticky;
+  height: 10vh;
+  top: 0;
 }
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
+
+section:nth-child(1){
+  height: 100vh;
+  background-image: url("images/fb3552daa27822a4655400f8ca17f27a\ \(1\).jpg");
+  background-size: cover;
+}
+
+section:nth-child(2) {
+  height: 100vh;
+  background: rgb(252, 255, 68);
+}
+
+section:nth-child(3) {
+  height: 100vh;
+  background: rgb(255, 65, 65);
+}
+
+section:nth-child(4) {
+  height: 100vh;
+}
+
+footer {
+  height: 100vh;
+  background: black;
+  color: white;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.botao{
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navbar{
+    font-size: 20px;
 }

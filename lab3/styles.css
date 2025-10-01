@@ -1,0 +1,45 @@
+body {
+    background-color: #cfcfcf;
+}
+img { 
+    width: 300px;
+}
+.Fotografias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.Fotografias img {
+    width: 150px;
+    border-radius: 20px;
+}
+.poema li {
+    font-style:italic;
+    padding-right:4px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+header, h1 {
+    background-color: chartreuse;
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+nav, footer {
+    text-align: center;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    margin: 0px;
+}
+nav a {
+  color: white;
+  text-decoration: none; 
+}
+
+nav a:hover {
+  color: lightgray;
+}
+
